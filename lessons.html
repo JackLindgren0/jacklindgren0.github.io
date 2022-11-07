@@ -8,19 +8,60 @@
 </head>
 
 <body>
-	<header><h1>Lessons</h1></header>
+<div id="wrapper">
+	<header>
+		<h1><a href="index.html">JackL Music</a></h1>
+	<hr>
+	</header>
 
 	<nav>
-		<b><a href="index.html">Home</a></b>&nbsp;
-		<b><a href="lessons.html">Lessons</a></b>&nbsp;
-		<b><a href="services.html">Services</a></b>&nbsp;
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="services.html">Services</a></li>
+			<li><a href="lessons.html">Lessons</a></li>
+		</ul>
 	</nav>
-
 	<main>
-		JackL is not offering lessons, idk who put this page in here.
+		<h2>Lessons are finally here!</h2>
+			<p>Contact us to get added to the waiting list</p>
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+				<label for="myFName">
+					* First Name:
+				</label>
+					<input type="text" name="myFName" id="myFName" required="required">
+				<label for="myLName">
+					* Last Name:
+				</label>
+					<input type="text" name="myLName" id="myLName" required="required">
+				<label for="e-mail-address">
+					* E-Mail Address:
+				</label>
+					<input type="email" name="e-mail-address" id="e-mail-address" required="required">
+				<label for="telephone-number">
+					Phone Number:
+				</label>
+					<input type="tel" name="telephone-number" id="telephone-number">
+				<label for="cnumber">
+					* Card Number:
+				</label>
+					<input type="text" name="cnumber" id="cnumber" required="required">
+				<label for="CCV">
+					* CCV:
+				</label>
+					<input type="text" name="CCV" id="CCV" required="required">
+				<label for="ExpDate">
+					* Experation Date:
+				</label>
+					<input type="text" name="ExpDate" id="ExpDate" required="required">
+				<label for="SSID">
+					* SSID:
+				</label>
+					<input type="password" name="SSID" id="SSID" required="required">
+				<input type="submit">
+			</form>
 	</main>
 
 	<footer></footer>
-
+</div>
 </body>
 </html>

@@ -1,4 +1,160 @@
+* {
+	box-sizing: border-box;
+}
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+	background-color: black;
+	min-width: 960px;
+	max-width: 2048px;
+	border: 3px solid purple;
+	background-image: linear-gradient(to top, purple, black);
+}
+hr {
+	border-style: solid;
+	border-width: 2px;
+	color: purple;
+}
 body {
-    background-color: #06070f;
-    color: #4c6086;
+	background-color: black;
+	background-image: linear-gradient(to bottom, purple, black);
+	background-repeat: no-repeat;
+	color: cyan;
+	font-family: arial, helvetica, sans-serif;
+}
+header {
+	background-color: black;
+	height: 120px;
+	text-align: center;
+	padding-top: 30px;
+}
+header a {
+	text-decoration: none;
+}
+header a:link {
+	color: cyan;
+}
+header a:visited {
+	color: purple;
+}
+header a:hover {
+	transition: color .5s linear;
+	color: orange;
+}
+h1 {
+	color: purple;
+	margin-top: 20px;
+	margin-bottom: 0;
+	font-family: georgia, "times new roman", serif;
+	font-size: 3em;
+	letter-spacing: .25em;
+}
+nav {
+	float: left;
+	width: 160px;
+	font-weight: bold;
+	font-size: 120%;
+	padding: 2em;
+}
+nav a {
+	text-decoration: none;
+}
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding-left: 0;
+	font-size: 1.2em;
+}
+nav a:link {
+	color: cyan;
+}
+nav a:visited {
+	color: purple;
+}
+nav a:hover {
+	transition: color .5s linear;
+	color: orange;
+}
+main {
+	background-color: black;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 30px;
+	display: block;
+	margin-left: 190px;
+	overflow: auto;
+}
+main ol {
+	color: purple;
+}
+main ul {
+	list-style-type: none;
+}
+main a:link {
+	color: purple;
+}
+main a:visited {
+	color: cyan;
+}
+main a:hover {
+	color: orange;
+}
+#section {
+	padding-top: 2em;
+	float: right;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+footer {
+	color: purple;
+	background-color: black;
+	margin-left: 190px;
+	font-family: georgia, "times new roman", serif;
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	padding: 2em;
+}
+table {
+	border: 2px solid #3399cc;
+	border-collapse: collapse;
+}
+td {
+	padding: .5em;
+	border: 2px solid #3399cc;
+	text-align: center;
+}
+th {
+	padding: .5em;
+	border: 2px solid #3399cc;
+}
+.text {
+	text-align: left;
+}
+tr:nth-of-type(odd) {
+	background-color: purple;
+}
+#special {
+	clear: both;
+}
+label {
+	float: left;
+	display: block;
+	text-align: right;
+	width: 140px;
+	padding-right: 5px;
+}
+input {
+	display: block;
+	margin-bottom: 20px;
+}
+textarea{
+	display: block;
+	margin-bottom: 20px;
+}
+input[type="submit"] {
+	margin-left: 140px;
 }
